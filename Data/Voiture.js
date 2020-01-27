@@ -3,7 +3,7 @@ var voiture1 ={
     categorie: "voiture",
     name : "2 CV - Citroën",
     prix : 250,
-    img : ""
+    img : "Style/2CV.jpg"
 }
 
 var voiture2 ={

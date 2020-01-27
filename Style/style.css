@@ -69,13 +69,13 @@ header{
 
 .produit{
     width: 23%;
-    height: 45%;
+    height: 48%;
     margin: 1%;
 }
 
 .img_produit{
     width: 100%;
-    height: 75%;
+    height: 70%;
 }
 
 .info_quantite{
@@ -83,7 +83,7 @@ header{
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 13%;
+    height: 11%;
 }
 
 .nom_produit{
@@ -94,7 +94,7 @@ header{
 
 .btn_plus{
     height: 50%;
-    width: 10%;
+    width: 9%;
 }
 
 .selection{
@@ -105,7 +105,14 @@ header{
 
 .btn_moins{
     height: 50%;
-    width: 10%;
+    width: 9%;
+}
+
+.prix_produit {
+    margin: 0px;
+    text-align: center;
+    height: 8%;
+    letter-spacing: 0.75px;
 }
 
 .ajouter_panier{
@@ -144,8 +151,9 @@ header{
     width: 100%;
     padding-top: 1%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     overflow: auto;
+    justify-content: flex-start;
 }
 
 .panier{
@@ -158,10 +166,12 @@ header{
 .achat{
     width: 98%;
     height: 12%;
-    background-color: darkseagreen;
+    background-color: white;
     margin: 1%;
     display: flex;
     align-items: center;
+    border-radius: 5px;
+    box-shadow:#aeaeae 1px 1px 7px;
 }
 
 .total{
@@ -177,6 +187,8 @@ header{
 .img_produit_panier{
     width: 20%;
     height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .supression_produit{
@@ -187,6 +199,8 @@ header{
 .nom_produit_panier{
     font-weight: bold;
     margin-left: 2%;
+    font-size: 80%;
+    width: 23%;
 }
 
 .quantite_panier{
@@ -200,4 +214,5 @@ header{
 
 .prix_produit_panier{
     margin-right: 10%;
+    width: 16%;
 }
